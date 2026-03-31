@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PUJO LOCK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="lockscreen">
+  <h1 class="title">PUJO</h1>
+  <p class="subtitle">Enter PIN</p>
+
+  <input type="password" id="pinInput" readonly>
+
+  <div class="keypad">
+    <button onclick="addNumber('1')">1</button>
+    <button onclick="addNumber('2')">2</button>
+    <button onclick="addNumber('3')">3</button>
+    <button onclick="addNumber('4')">4</button>
+    <button onclick="addNumber('5')">5</button>
+    <button onclick="addNumber('6')">6</button>
+    <button onclick="addNumber('7')">7</button>
+    <button onclick="addNumber('8')">8</button>
+    <button onclick="addNumber('9')">9</button>
+    <button onclick="clearPin()">⌫</button>
+    <button onclick="addNumber('0')">0</button>
+    <button onclick="login()">✔</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
